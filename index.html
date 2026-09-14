@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AegisCare — Pelacak Pemulihan Pasca Rawat Inap</title>
+
+    <!-- =================================================================
+         PENGATURAN AEGIS PARTNER
+         Isi dua kolom di bawah ini agar fitur tanya-jawab "Aegis Partner"
+         aktif di dashboard. Cukup ketik di antara tanda kutip "...",
+         simpan file ini, lalu unggah/timpa ke server seperti biasa.
+         Tidak perlu proses build/compile apa pun untuk mengubah ini.
+
+         - kunciUtama   : kunci layanan utama Aegis Partner
+         - kunciCadangan: kunci layanan cadangan (dipakai otomatis bila
+                          layanan utama sedang penuh/tidak merespons)
+
+         Kosongkan tanda kutip untuk menonaktifkan salah satu layanan.
+         ================================================================= -->
+    <script>
+      window.__AEGIS_PARTNER_CONFIG__ = {
+        kunciUtama: "",
+        kunciCadangan: ""
+      };
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
